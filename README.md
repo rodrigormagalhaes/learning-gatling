@@ -6,6 +6,8 @@
   - [Configuração JVM](https://gatling.io/docs/current/installation#intellij-idea): `File` > `Settings` > `Scala Compile Server`: `JVM Options` = `-server -Xss100M`
   - Importar o projeto no IntelliJ como projeto gradle
 
+
+- **Execução do teste**:
 ```
 ./gradlew clean gatlingRun-CreateUserSimulation
 ```
