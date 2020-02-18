@@ -1,0 +1,12 @@
+*.class
+*.log
+
+.idea
+
+build
+
+.gradle
+
+results/
+
+out/
