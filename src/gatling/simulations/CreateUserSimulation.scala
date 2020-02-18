@@ -3,7 +3,7 @@ import io.gatling.http.Predef._
 
 class CreateUserSimulation extends Simulation {
 
-  // 1 - Informações de acesso à Aplicação
+  // 1 - Configurações do acesso e hearders da aplicação
   val httpConf = http
     .baseUrl("https://reqres.in")
     .header("Content-Type", "application/json")
